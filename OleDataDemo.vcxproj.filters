@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Ressource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DragDropHelper.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FileList.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoList.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEdit.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MyListCtrl.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MyStatic.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OleDataDemo.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OleDataDemoDlg.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OleDataSourceEx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OleDropSourceEx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OleDropTargetEx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DragDropHelper.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FileList.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoList.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEdit.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListCtrl.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStatic.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OleDataDemo.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OleDataDemoDlg.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OleDataSourceEx.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OleDropSourceEx.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OleDropTargetEx.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DragMe.bmp">
+      <Filter>Ressource</Filter>
+    </Image>
+    <Image Include="res\OleDataDemo.ico">
+      <Filter>Ressource</Filter>
+    </Image>
+    <Image Include="res\sis-logo.bmp">
+      <Filter>Ressource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OleDataDemo.rc">
+      <Filter>Ressource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\OleDataDemo.rc2">
+      <Filter>Ressource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="res\OleDataDemo.exe.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
